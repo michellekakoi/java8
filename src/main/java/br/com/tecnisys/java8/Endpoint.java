@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Endpoint {
 
     @GetMapping
-    public String versao(){
-        return System.out.println("java.runtime.version");
+    public void versao(){
+        return System.out.println("mudada");
     }
 }
